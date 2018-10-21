@@ -1,0 +1,103 @@
+html {
+    line-height: 1.15;
+    }
+
+h1 {
+    font-size: 22px;
+    margin: 0.67em 0;
+}
+
+.center.aligned {
+    text-align: center;
+}
+
+.right.aligned {
+    text-align: right;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;   
+}
+
+.flex-column-item{
+    margin:-5px -4px;
+}
+
+
+.my-icon{
+    padding: 4px;
+    text-align: center;
+    width:32px;
+}
+
+.my-black-icon{
+    
+    width:26px;
+}
+
+.icon-input img{
+    position: absolute;
+    right:3px;
+    padding: 6px 5px;   
+}
+
+.icon-input2 img{
+    position: absolute;
+    right:3px;
+    padding: 6px 4px;
+}
+
+.my-segment{
+    border-left:2px solid #00B5AD!important;
+}
+
+.my-line{
+    line-height: 1;
+}
+
+.my-content{
+    font-family: "Lato";
+    font-size:18px;
+    text-align: center;
+    color:grey
+}
+
+.save-button{
+    width:20px;
+}
+
+.segments {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+.timer-display{
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1.28571429em;
+    color: rgba(0, 0, 0, 0.87);
+    font-size:36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CoffeeTawk(Ellen)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+</head>
+
+<body>
+    <div>
+        <div class="my-line"></div>
+        <h1 class="ui large center aligned header padded-head">
+            Add a customer sample
+        </h1>
+        <div class="my-line"></div>
+        
+        <div class="ui raised card ui centered card">
+            <div class="content">
+                <h2 class="ui header">
+                    <i class="user circle icon"></i>            
+                    Customer 1                   
+                </h2>
+                
+                <div class="my-line"></div>
+                <div class="flex-container"> 
+                    <div class="flex-item">
+                        <div class="ui segment my-segment">
+                            <h3 class="ui header">Number of<br> Baristas</h3>
+                            <div class="ui fluid input icon-input2">
+                                <input type="text">
+                                <img id="baristas icon" src="images/baristas grey icon.jpg" class="my-icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="ui segment my-segment">
+                            <h3 class="ui header">Quantity of<br> Beverages</h3>
+                                <div class="ui fluid input icon-input">
+                                    <input type="text">
+                                    <img id="coffeecup icon" src="https://icongr.am/jam/coffee.svg?size=24&color=A9A9A9" >
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            <br>
+
+            <div class="flex-column-container">
+                <div class="flex-column-item">
+                <div class="ui padded segment ui basic segment">
+                    <h3 class="ui header">
+                        <div class="content">
+                        Record Pick-up Time
+                        <i class="stopwatch icon"></i>
+                        <div class="sub header">From getting the receipt to picking up beverages</div>
+                        </div>                    
+                    </h3>                    
+                </div>
+                </div>
+
+                <div class="flex-column-item">
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <button onclick = "startTime()" class="ui inverted orange large button">Start</button>                                                
+                        <p></p>
+                        <div id="start" class="center aligned my-content"><br></div>
+                        <script src="/lab5/time button.js"></script>
+                    </div>
+                    
+                    <div class="flex-item">
+                        <button onclick = "endTime()" class="ui inverted violet large button end-button">End</button>
+                        <p></p>
+                        <div id="end" class="center aligned my-content"><br></div>
+                        <script src="/lab5/time button.js"></script>
+                    </div>
+
+                </div>
+                </div>
+
+            <br>
+
+            <div class="center aligned timer-display">
+                    00:00.0
+            </div>
+                
+            <br><br>
+        
+            
+            <div class="center aligned button-container">
+                <div class="ui animated fade teal large button" tabindex="0">
+                    <div class="visible content">Add Sample</div>
+                    <div class="hidden content">
+                        <i class="plus icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="inverted or"></div>
+
+            <div class="center aligned button-container">
+                <a href="table.html" class="ui animated fade teal basic large button" tabindex="0">
+                    <div class="visible content">&nbsp;&nbsp;&nbsp Finished &nbsp;&nbsp;&nbsp</div>
+                    <div class="hidden content">
+                        <i class="check icon"></i>
+                    </div>
+                </a>
+            </div>
+                
+
+            </div>
+
+            </div>
+            
+        </div>
+        
+
+    </div>
+</body>
+
+</html>
