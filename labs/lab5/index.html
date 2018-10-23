@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CoffeeTawk(Ellen)</title>
+    <script type="text/javascript" src="time button.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
 </head>
@@ -51,7 +52,7 @@
 
             <div class="flex-column-container">
                 <div class="flex-column-item">
-                <div class="ui padded segment ui basic segment">
+                <div class="ui basic segment">
                     <h3 class="ui header">
                         <div class="content">
                         Record Pick-up Time
@@ -61,18 +62,25 @@
                     </h3>                    
                 </div>
                 </div>
+                <br>
 
                 <div class="flex-column-item">
-                <div class="flex-container">
+                <div class="flex-container-between">
                     <div class="flex-item">
-                        <button onclick = "startTime()" class="ui inverted orange large button">Start</button>                                                
+                        <button onclick = "startTime()" class="ui inverted orange button">Start</button>                                                
                         <p></p>
                         <div id="start" class="center aligned my-content"><br></div>
                         <script src="/lab5/time button.js"></script>
                     </div>
+
+                    <div class="flex-item">
+                        <button class="ui inverted secondary button">Reset</button>
+                        <p></p>
+                        <div class="center aligned my-content"><br></div>
+                    </div>
                     
                     <div class="flex-item">
-                        <button onclick = "endTime()" class="ui inverted violet large button end-button">End</button>
+                        <button onclick = "endTime()" class="ui inverted violet button end-button">End</button>
                         <p></p>
                         <div id="end" class="center aligned my-content"><br></div>
                         <script src="/lab5/time button.js"></script>
@@ -84,19 +92,19 @@
             <br>
 
             <div class="center aligned timer-display">
-                    00:00.0
+                00:00.0
             </div>
                 
             <br><br>
         
             
             <div class="center aligned button-container">
-                <div class="ui animated fade teal large button" tabindex="0">
-                    <div class="visible content">Add Sample</div>
+                <a href="index.html" class="ui animated fade teal large button" tabindex="0">
+                    <div class="visible content">Save & Add Another Sample</div>
                     <div class="hidden content">
                         <i class="plus icon"></i>
                     </div>
-                </div>
+                </a>
             </div>
 
             <br>
@@ -104,9 +112,11 @@
 
             <div class="center aligned button-container">
                 <a href="table.html" class="ui animated fade teal basic large button" tabindex="0">
-                    <div class="visible content">&nbsp;&nbsp;&nbsp Finished &nbsp;&nbsp;&nbsp</div>
+                    <div class="visible content">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp; Data Management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                    </div>
                     <div class="hidden content">
-                        <i class="check icon"></i>
+                        <i class="table icon"></i>
                     </div>
                 </a>
             </div>
